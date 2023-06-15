@@ -9,6 +9,8 @@
 
 body{
     font-family: 'Inter', sans-serif;
+    background-color: #000000;
+    overflow-x: hidden;
 }
 
 button{
@@ -53,4 +55,32 @@ button{
     border: #515151 solid ;
     width: 200px;
     padding: 8px;
+}
+
+/* services section */
+.services{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.service-header{
+    width: 200px;
+    margin: 0;
+}
+
+.transfer-service{
+    width: 220px;
+    margin: 0;
+}
+
+.service-gap{
+    width: 1550px;
+}
+
+.services{
+    width: 1200px;
+}
+
+.service-card-3{
+    width:274px ;
 }
