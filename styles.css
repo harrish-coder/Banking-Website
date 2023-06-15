@@ -9,22 +9,48 @@
 
 body{
     font-family: 'Inter', sans-serif;
-  
-    
 }
+
+button{
+        background-color: #FD6F00;
+        border: none;
+        padding: 10px 25px;
+        color: #ffffff;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
 
 /* navbar */
 /* hero-section */
-/* h1{
-    float: left;
-}
-*/
-.para {
-    display: relative;
-} 
 
-#home-img {
-    float: right;
-    border: 5px solid black;
-    margin-bottom: 500px;
+.title {
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #000000;
+    font-weight: 700;
+}
+
+#my-para{
+    font-size: 1rem;
+    font-weight: 100;
+    color: #515151;
+}
+
+.showcase-area .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.transaction-count{
+    margin-top: 20px;
+    border: #515151 solid ;
+    width: 200px;
+    padding: 8px;
 }
