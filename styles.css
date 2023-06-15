@@ -8,19 +8,20 @@
 
 body{
     font-family: 'Inter', sans-serif;
+    text-align: center;
+    
 }
 
 /* navbar */
-.nav-link {
-    background-color: #545454;
-    color: #545454;
+/* hero-section */
+h1{
+    float: left;
 }
 
-nav a:hover{
-    color: black;
+p{
+    float:left;
 }
 
-nav a:active{
-    color:#545454;
+img{
+    float: right;
 }
-
