@@ -75,12 +75,18 @@ button{
 
 .service-gap{
     width: 1550px;
+    /* text-align: center; */
 }
 
 .services{
     width: 1200px;
+    margin-bottom: 100px;
 }
 
+/* .service-card-1{
+    text-align: center;
+} */
 .service-card-3{
     width:274px ;
 }
+
