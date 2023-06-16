@@ -28,7 +28,7 @@ button{
     }
 
 form{
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 /* navbar */
@@ -70,6 +70,7 @@ form{
     justify-content: center;
 }
 
+
 .transaction-count{
     margin-top: 20px;
     border: #515151 solid ;
@@ -103,6 +104,7 @@ form{
     width: 1200px;
     margin-bottom: 100px;
 }
+
 
 .service .container .service-card-1{
     padding-left: 10px;
@@ -147,6 +149,11 @@ form{
     padding-left: 15px;
 }
 
+.service-button:hover{
+    color: #ffffff;
+    background-color:#FD6F00 ;
+    border-radius: 15px;
+}
 
 /* footer */
 .footer{
@@ -215,7 +222,7 @@ form{
 
 .back-to-top{
     display: flex;
-    margin-top: 250px;
+    margin-top: 280px;
     margin-left: 15%;
 }
 
