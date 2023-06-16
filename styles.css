@@ -30,9 +30,22 @@ button{
 form{
     margin-top: 50px;
 }
+
 /* navbar */
 .navbar{
     width: 1500px;
+}
+
+.navbar .container ul a{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar .container ul a:hover{
+    color: #ffffff;
+    background-color:#FD6F00 ;
+    border-radius: 5px;
 }
 
 /* showcase  */
@@ -118,6 +131,7 @@ form{
 .service-card-2-button{
     padding-left: 50px;
     padding-right: 50px;
+    
 }
 
 .service-card-3-button{
