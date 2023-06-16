@@ -75,6 +75,7 @@ button{
 
 .service-gap{
     width: 1550px;
+    margin-bottom: 150px;
     /* text-align: center; */
 }
 
@@ -90,3 +91,18 @@ button{
     width:274px ;
 }
 
+/* footer */
+.footer-logo {
+    margin-left: 70px;
+    width: 180px;
+    height: 140px;
+    border: #000000 solid ;
+}
+
+
+.footer-para{
+    margin-left: 120px;
+    border: #000000 solid ;
+    width: 300px;
+    margin-bottom: 250px;
+}
