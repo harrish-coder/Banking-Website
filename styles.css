@@ -162,6 +162,12 @@ form{
     height: 54px;
 }
 
+.back-to-top{
+    display: flex;
+    margin-top: 220px;
+    margin-left: 15%;
+}
+
 .footer-copyright{
     text-align: center;
     margin-top: 50px;
