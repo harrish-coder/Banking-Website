@@ -8,6 +8,7 @@
 }
 
 body{
+    background-color: #ffffff !important;
     font-family: 'Inter', sans-serif;
     text-align: center;
     overflow-x: hidden;
@@ -148,6 +149,7 @@ form{
 .history-header{
     padding-left: 15px;
 }
+
 
 .service-button:hover{
     color: #ffffff;
