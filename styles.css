@@ -107,22 +107,19 @@ form{
     width: 700px;
 }
 
-.footer .footer-right{
-    flex;
-}
+
 .footer-logo {
     margin-left: 70px;
     width: 180px;
     height: 140px;
     /* border: #000000 solid; */
-
     box-sizing: border-box;
 }
 
 
 .footer-para{
     margin-left: 120px;
-    /* border: #000000 solid ; */
+    color: #515151;
     margin-bottom: 0;
     width: 300px;
     margin-bottom: 250px;
@@ -167,6 +164,11 @@ form{
     margin-top: 220px;
     margin-left: 15%;
 }
+
+.back-to-top a{
+    color: #515151;
+}
+
 
 .footer-copyright{
     text-align: center;
