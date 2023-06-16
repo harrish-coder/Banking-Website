@@ -31,6 +31,10 @@ form{
     margin-top: 50px;
 }
 /* navbar */
+.navbar{
+    width: 1500px;
+}
+
 /* showcase  */
 
 .title {
@@ -87,16 +91,48 @@ form{
     margin-bottom: 100px;
 }
 
-.service .container .service-card-2{
-    padding-left: 24px;
-
+.service .container .service-card-1{
+    padding-left: 10px;
 }
 
+.service .container .service-card-1 p{
+    padding-left: 20px;
+}
+
+.service .container .service-card-2{
+    padding-left: 24px;
+}
+
+.service-card-2 img{
+    padding-left: 30px;
+}
+
+.service-card-2-p{
+    padding-left: 25px;
+}
+
+.service-card-3-p{
+    padding-left: 35px;
+}
+
+.service-card-2-button{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.service-card-3-button{
+    padding-left: 10px;
+}
 
 .service .container .service-card-3{
     width:274px;
     padding-right: 50px;
 }
+
+.history-header{
+    padding-left: 15px;
+}
+
 
 /* footer */
 .footer{
@@ -123,6 +159,10 @@ form{
     margin-bottom: 0;
     width: 300px;
     margin-bottom: 250px;
+}
+
+.footer-form-para{
+    margin-bottom: 2rem;
 }
 
 .footer-icon{
@@ -161,7 +201,7 @@ form{
 
 .back-to-top{
     display: flex;
-    margin-top: 220px;
+    margin-top: 250px;
     margin-left: 15%;
 }
 
@@ -178,4 +218,9 @@ form{
     padding: 25px;
     width: 85%;
     margin-left: 7.5%;
+}
+
+.footer-copyright-text a{
+    text-decoration: none;
+    color: #ffffff;
 }
