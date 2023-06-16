@@ -28,7 +28,7 @@ button{
     }
 
 /* navbar */
-/* hero-section */
+/* showcase  */
 
 .title {
     text-transform: uppercase;
@@ -96,13 +96,34 @@ button{
     margin-left: 70px;
     width: 180px;
     height: 140px;
-    border: #000000 solid ;
+    /* border: #000000 solid; */
+
+    box-sizing: border-box;
 }
 
 
 .footer-para{
     margin-left: 120px;
-    border: #000000 solid ;
+    /* border: #000000 solid ; */
+    margin-bottom: 0;
     width: 300px;
     margin-bottom: 250px;
+}
+
+.footer-icon{
+    width: 100px;
+    margin-left: 110px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-left{
+    width: 700px;
+}
+.footer-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
