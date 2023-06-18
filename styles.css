@@ -80,6 +80,31 @@ form{
     padding: 8px;
 }
 
+.end-btn{
+    width: none;
+    height: none;
+}
+
+.end-btn:hover {
+    /* margin-top: 2vw; */
+    background-color: #FD6F00;
+    border: none;
+    width: 11vw;
+    height: 3.5vw;
+    /* font-size: 3vw; */
+    color: #FFFFFF;
+    /* border-radius: 0.5vw; */
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+.end-btn i:hover {
+    float: right;
+    padding-top: 5px;
+}
+
 /* services section */
 .services{
     text-align: center;
@@ -155,7 +180,8 @@ form{
 .service-button:hover{
     color: #ffffff;
     background-color:#FD6F00 ;
-    border-radius: 15px;
+    /* border-radius: 15px; */
+    font-weight: bold;
 }
 
 /* footer */
@@ -201,6 +227,22 @@ form{
 .footer-icon a{
     text-decoration: none;
     color: #4f4f4f;
+}
+
+.github:hover{
+    color: #333;
+}
+
+.linkedin:hover{
+    color: #0077B5;
+}
+
+.instagram:hover{
+    color: #C13584;
+}
+
+.twitter:hover{
+    color: #1DA1F2;
 }
 
 .footer-button{
