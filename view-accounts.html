@@ -32,7 +32,7 @@
               <a class="nav-link nav-items" aria-current="page" href="view-accounts.html">View Accounts</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Transfer Funds</a>
+              <a class="nav-link" onclick="sendMoney()" href="#">Transfer Funds</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Transaction History</a>
@@ -82,7 +82,7 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" onclick="sendMoney()" class="btn btn-success" data-dismiss="modal">Send Money</button>
+                <button type="button"  class="btn btn-success" data-dismiss="modal">Send Money</button>
               </div>
             </div>
           </div>
@@ -101,16 +101,14 @@
                 <ol id="transaction-history-body">
                 </ol>
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-              </div>
+              
             </div>
           </div>
         </div>
          <!--Table-->
     <div class="container">
       <div class="table-responsive">
-        <table class="table table-hover table-bordered">
+        <table class="table table-hover table-bordered table table-striped">
           <thead>
             <tr>
               <th scope="col">S.NO</th>
@@ -214,5 +212,6 @@
         </table>
       </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
