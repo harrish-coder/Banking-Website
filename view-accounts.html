@@ -18,11 +18,12 @@
     <title>MoneyVista- Sparks Foundation</title>
 </head>
 <body>
+
     <!-- Navbar -->
     <nav class="navbar">
         <div class="container">
           <div class="navbar-logo">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="index.html">
             <img src="img/logo.png" alt="MoneyVista Logo" width="180" height="140">
           </a>
           </div>
@@ -42,5 +43,176 @@
           </ul>
         </div>
       </nav>
+      <section id="main" class="coloured-section">
+
+        <!--Modal Send Money-->
+        <div class="modal fade" id="sendMoney" tableindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Send Money</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form action="">
+                  <div class="input-group mb-3">
+                    <input type="text" id="enterSName" class="form-control" placeholder="Sender's Username" aria-label="Sender's Username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+                    </div>
+                  </div>
+                  <div class="input-group mb-3">
+                    <input type="text" id="enterName" class="form-control" placeholder="Recipient's Username" aria-label="Recipient's Username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+                    </div>
+                  </div>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">₹</span>
+                    </div>
+                    <input type="text" id="enterAmount" class="form-control" placeholder="Enter Amount" aria-label="Amount">
+                    <div class="input-group-append">
+                      <span class="input-group-text">.00</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" onclick="sendMoney()" class="btn btn-success" data-dismiss="modal">Send Money</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Modal Transaction History-->
+        <div class="modal fade" id="transactionHistory" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Transaction History</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <ol id="transaction-history-body">
+                </ol>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!--Table-->
+    <div class="container">
+      <div class="table-responsive">
+        <table class="table table-hover table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">S.NO</th>
+              <th scope="col">NAME</th>
+              <th scope="col">E-MAIL ID</th>
+              <th scope="col">BANK BALANCE</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr>
+              <td scope="row">1</td>
+              <td>HARRISH</td>
+              <td>harrish@gmail.com</td>
+              <td>
+                <p id="harrishBankBalance">5000</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td scope="row">2</td>
+              <td>ROHAN</td>
+              <td>rohan@email.com</td>
+              <td>
+                <p id="rohanBankBalance">100000</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td scope="row">3</td>
+              <td>VISHAL</td>
+              <td>vishal@gmail.com</td>
+              <td>
+                <p id="vishalBankBalance">55000</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td scope="row">4</td>
+              <td>KISHORE</td>
+              <td>kishore@gmail.com</td>
+              <td>
+                <p id="kishoreBankBalance">85080</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td scope="row">5</td>
+              <td>KESAVAN</td>
+              <td>kesavan@gmail.com</td>
+              <td>
+                <p id="kesavanBankBalance">700</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td scope="row">6</td>
+              <td>PRIYA</td>
+              <td>priya@gmail.com</td>
+              <td>
+                <p id="priyaBankBalance">165781</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td scope="row">7</td>
+              <td>ASWIN</td>
+              <td>aswin@gmail.com</td>
+              <td>
+                <p id="aswinBankBalance">198700</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td scope="row">8</td>
+              <td>ARUN</td>
+              <td>arun@gmail.com</td>
+              <td>
+                <p id="arunBankBalance">35000</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td scope="row">9</td>
+              <td>DINA</td>
+              <td>dina@gmail.com</td>
+              <td>
+                <p id="dinaBankBalance">12900</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td scope="row">10</td>
+              <td>RAMANA</td>
+              <td>ramana@gmail.com</td>
+              <td>
+                <p id="ramanaBankBalance">1000</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
 </body>
 </html>
