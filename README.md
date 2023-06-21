@@ -5,3 +5,5 @@ This is a project developed as a part of internship in The Sparks Foundation
 # About MoneyVista
 A Web Application used to transfer money between multiple users (Project contains 10 dummy users).
 
+Flow of the Website: Home Page > View all Users > Select and View one User > Transfer Money > Select reciever > View all Users > View Transfer History.
+
