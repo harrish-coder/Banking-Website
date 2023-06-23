@@ -13,4 +13,4 @@ live url: https://monyvista.netlify.app/
 
 YouTube url: https://youtu.be/iqTV0HCDr8I
 
-Linkedin: url: https://shorturl.ac/moneyvista
+Linkedin: url: https://tinyurl.com/2xdbavfb
