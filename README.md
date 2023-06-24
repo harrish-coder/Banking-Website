@@ -9,7 +9,8 @@ MoneyVista, your go-to online banking system. Our platform is designed to simpli
 
 Flow of the Website: Home Page > View all Users > Select and View one User > Transfer Money > Select reciever > View all Users > View Transfer History.
 
-![screenshot](ss(1).png)
+![Screenshot](homepage.png)
+![Screenshot](transactionpage.png)
 
 live url: https://monyvista.netlify.app/
 
